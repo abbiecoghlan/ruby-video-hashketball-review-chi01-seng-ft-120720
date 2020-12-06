@@ -162,16 +162,12 @@ def team_colors(team)
 end   
 
 
-def team_names
-  game_hash
-  team_array = [game_hash[:home][:team_name], game_hash[:away][:team_name]]
-end
 
-ALT
+
 def team_names
-[game_hash[:home][:team_name], game_hash[:away][:team_name]] 
+  [game_hash[:home][:team_name], game_hash[:away][:team_name]] 
 end 
-would have worked!!!! 
+
 
 
 def player_numbers(team)
