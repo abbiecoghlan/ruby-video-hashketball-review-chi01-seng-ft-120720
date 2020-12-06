@@ -165,6 +165,7 @@ end
 
 
 def team_names
+  binding.pry
   [game_hash[:home][:team_name], game_hash[:away][:team_name]] 
 end 
 
